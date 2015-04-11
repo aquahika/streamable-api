@@ -73,6 +73,7 @@ module Streamable
 end
 
 
+=begin
 hoge = Streamable::Streamable.new(:user => "loby" , :password => "OFAlR57pwtqru_wh15ctEw")
 pp shortcode = hoge.upload("video.mp4")
 pp video = hoge.status(shortcode)
@@ -83,3 +84,4 @@ video = hoge.status(shortcode)
 p video.status
 sleep 2
 end
+=end
